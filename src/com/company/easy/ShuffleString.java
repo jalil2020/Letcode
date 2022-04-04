@@ -20,7 +20,7 @@ public class ShuffleString {
 
         map.entrySet()
                 .stream()
-                .sorted(Map.Entry.comparingByKey());
+                .sorted(Map.Entry.comparingByValue());
         StringBuilder builder = new StringBuilder();
         for (int i = 0; i < map.size(); i++) {
             builder.append(map.get(i));
