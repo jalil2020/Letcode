@@ -1,4 +1,4 @@
-package com.company;
+package com.company.daily;
 
 public class GetCommon {
     public static void main(String[] args) {
